@@ -197,13 +197,13 @@ main {
   grid-template-areas: 'Uni Foundation Tvis Svv';
   grid-template-rows: repeat(3, 1); }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark {
   display: block;
   padding: 0.5rem 1.0rem;
   border: 0;
   width: 350px;
   margin-bottom: 0.3rem; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover {
     background: #b1266b;
     opacity: 0.8;
     color: #000; }
@@ -213,12 +213,6 @@ main {
   font-size: large;
   align-items: flex-end;
   color: #fff; }
-
-.btn-light {
-  background: #c4c4c4;
-  font-size: large;
-  align-items: center;
-  color: #000000; }
 
 .item {
   align-items: center;
